@@ -1,0 +1,62 @@
+site_name: HCAI5CS001 | Software Design and Engineering 2025
+theme:
+  name: material
+  #favicon: assets/logo.png
+
+  # Option for Footer
+  features:
+    - navigation.footer
+    - navigation.path
+
+  #color pallate for light and dark
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+nav:
+    - About : 'index.md'
+    - Course Overview : 'overview.md'
+    - Schedule: 'schedule.md'
+    - FAQ: 'faq.md'
+
+
+plugins:
+  - search
+  - glightbox
+
+
+markdown_extensions:
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+# Social Media Icons
+extra:
+  social:
+    # - icon: fontawesome/brands/linkedin 
+    #   link: https://linkedin.com/in/AatizGhimire
+    #   name: LinkedIn Profile
+    # - icon: fontawesome/brands/github 
+    #   link: https://github.com/AatizGhimire
+    #   name: Github Profile
+    # - icon: fontawesome/brands/researchgate
+    #   link: https://www.researchgate.net/profile/Aatiz-Ghimire
+    #   name: Research Gate Profile
+    # - icon: fontawesome/brands/google
+    #   link: https://scholar.google.com/citations?hl=en&user=ooQzSTcAAAAJ
+    #   name: Google Scholar's Profile
+    # - icon: fontawesome/brands/orcid
+    #   link: https://orcid.org/0000-0001-6580-9204
+    #   name: ORCID's Profile
+
+copyright: Copyright &copy; 2015 - 2025 Aatiz Ghimiré
