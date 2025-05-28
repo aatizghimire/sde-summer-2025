@@ -30,6 +30,7 @@ Here are a few tools that we may encounter.
 
 ### Final Design Project Examples:
 Final Design Projects are selected by students. Few examples that are able to be considered for projects are:
+
 - Design a scalable YouTube-like video platform with ML recommendations
 - Build a fault-tolerant URL shortener with replication and rate limiting
 - Construct an e-commerce system backend with sharded search and event-driven stock updates
