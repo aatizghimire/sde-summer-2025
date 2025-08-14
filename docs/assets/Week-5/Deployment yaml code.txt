@@ -1,0 +1,44 @@
+Deployment.yaml code:
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: web
+        image: nginx:alpine
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: html-volume
+          mountPath: /usr/share/nginx/html
+      volumes:
+      - name: html-volume
+        configMap:
+          name: web-html
+          
+
+configmap.yaml
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-html
+data:
+  index.html: |
+    <html>
+    <body>
+      <h1>Welcome to My Kubernetes App!</h1>
+      <p>Deployed on $(date) by studentb.</p>
+    </body>
+    </html>

@@ -15,8 +15,10 @@ By the end of the course, students will be able to:
 - [System Design Interview by Alex Xu](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF)
 - System Design Primer by Donne Martin [(GitHub Repository)](https://github.com/donnemartin/system-design-primer)
 
+- [System Design Byte Byte Go](https://bytebytego.com/)
+
 ### Lab Tools and Technologies:
-**Philosophy **: *we are not dependent on any tools and technology for this course but to understand the core architecture*.
+**Philosophy**: *we are not dependent on any tools and technology for this course but to understand the core architecture*.
 
 Here are a few tools that we may encounter.
 
